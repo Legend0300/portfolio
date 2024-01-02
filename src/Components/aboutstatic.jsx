@@ -1,13 +1,10 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaptopCode, faRobot, faBrain } from '@fortawesome/free-solid-svg-icons';
-import { faReact, faJs, faPython , faNodeJs } from '@fortawesome/free-brands-svg-icons';
 
 const About = () => {
   const cards = [
     {
       title: 'Professional Expertise',
-      icon: faLaptopCode,
+      icon: 'fas fa-laptop-code',
       content: (
         <>
           <p className="mb-3">
@@ -16,9 +13,9 @@ const About = () => {
           </p>
           <p>
             My proficiency extends to using
-            <FontAwesomeIcon icon={faJs} className="ml-2 mr-1 text-yellow-400" />JavaScript,
-            <FontAwesomeIcon icon={faPython} className="ml-1 mr-1 text-blue-500" />Python, and
-            <FontAwesomeIcon icon={faReact} className="ml-1 mr-1 text-teal-400" />React, along with frameworks such as
+            <span className="ml-2 mr-1 text-yellow-400">JavaScript</span>,
+            <span className="ml-1 mr-1 text-blue-500">Python</span>, and
+            <span className="ml-1 mr-1 text-teal-400">React</span>, along with frameworks such as
             Express JS and Flask.
           </p>
           <p>
@@ -29,22 +26,22 @@ const About = () => {
       ),
     },
     {
-        title: 'MERN Stack and Node.js',
-        icon: faNodeJs,
-        content: (
-          <>
-            <p className="mb-3">
-              Proficient in the MERN (MongoDB, Express.js, React, Node.js) stack for building full-stack web applications.
-            </p>
-            <p>
-              Additionally, experienced in server-side JavaScript programming with Node.js, enabling the development of scalable and efficient server applications.
-            </p>
-          </>
-        ),
-      },
+      title: 'MERN Stack and Node.js',
+      icon: 'fab fa-node-js',
+      content: (
+        <>
+          <p className="mb-3">
+            Proficient in the MERN (MongoDB, Express.js, React, Node.js) stack for building full-stack web applications.
+          </p>
+          <p>
+            Additionally, experienced in server-side JavaScript programming with Node.js, enabling the development of scalable and efficient server applications.
+          </p>
+        </>
+      ),
+    },
     {
       title: 'Passion for Machine Learning',
-      icon: faBrain,
+      icon: 'fas fa-brain',
       content: (
         <>
           <p className="mb-3">
@@ -61,7 +58,7 @@ const About = () => {
     },
     {
       title: 'Generative AI and Trending Technologies',
-      icon: faRobot,
+      icon: 'fas fa-robot',
       content: (
         <>
           <p className="mb-3">
@@ -74,14 +71,14 @@ const About = () => {
     },
   ];
 
- return (
+  return (
     <div className="about-container bg-gray-900 py-12 text-white h-full flex justify-center items-center">
       <div className="flex flex-col items-center max-w-2xl w-full">
         <h1 className="text-4xl font-bold mb-6 text-teal-400">About Me</h1>
         {cards.map((card, index) => (
           <div key={index} className="card text-lg p-6 rounded bg-gray-800 mb-4">
             <h3 className="text-2xl font-bold mb-3 text-teal-400 flex items-center">
-              <FontAwesomeIcon icon={card.icon} className="mr-2" />
+              <i className={card.icon + ' mr-2'}></i>
               {card.title}
             </h3>
             {card.content}
