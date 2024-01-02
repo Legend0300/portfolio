@@ -15,7 +15,7 @@ const Projects = () => {
     {
       title: 'Dynamic API CRUD Handler React',
       description: 'Implemented a dynamic API CRUD handler using React, allowing users to perform Create, Read, Update, and Delete operations on data. The application provides a seamless and user-friendly interface.',
-      repoLink: 'https://github.com/Legend0300/Dynamic-API-CRUD-Handler-React',
+      repoLink: 'https://github.com/Legend0300/API-Dynamic-CRUD-Handler',
     },
     {
       title: 'Email Spam Detector',
