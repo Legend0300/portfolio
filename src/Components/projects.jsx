@@ -30,7 +30,7 @@ const Projects = () => {
     {
       title: 'Social Media App REST API',
       description: 'Designed and developed a RESTful API for a social media application. The API includes user authentication, post creation, and interaction features to support the functionality of the social platform.',
-      repoLink: 'https://github.com/Legend0300/Social-Media-App-REST-API',
+      repoLink: 'https://github.com/Legend0300/Social-Media-App',
     },
     {
       title: 'Chat/Server Room App',
