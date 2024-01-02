@@ -25,7 +25,7 @@ const Projects = () => {
     {
       title: 'Discord Bot in Python',
       description: 'Implemented a Discord bot using Python to enhance server functionality. A simple Discord bot written in Python using the Discord API. This bot is designed to respond with roasts when triggered by specific messages.',
-      repoLink: 'https://github.com/Legend0300/Discord-Bot-in-Python',
+      repoLink: 'https://github.com/Legend0300/discordBot',
     },
     {
       title: 'Social Media App REST API',
@@ -35,7 +35,7 @@ const Projects = () => {
     {
       title: 'Chat/Server Room App',
       description: 'Implemented a real-time chat and server room application using Socket.IO. The application allows multiple users to join different chat rooms and engage in real-time communication.',
-      repoLink: 'https://github.com/Legend0300/Chat-Server-Room-App-Socket-IO',
+      repoLink: 'https://github.com/Legend0300/SocketIO',
     },
     {
       title: 'Contact Manager REST API',
