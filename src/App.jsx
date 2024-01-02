@@ -13,7 +13,7 @@ import Projects from './Components/projects'
 import Contact from './Components/contact'
 import Certifications from './Components/certifications'
 import LandingPage from './Components/landingpage'
-import AboutStaticThemed from './Components/aboutstatic'
+import AboutStatic from './Components/aboutstatic'
 
 
 const router = createBrowserRouter(
@@ -22,7 +22,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<Nav />}>
       <Route  index element={<LandingPage  />} />
       <Route path="skills" element={<Skills />} />
-      <Route path="about" element={<AboutStaticThemed />} />
+      <Route path="about" element={<AboutStatic />} />
       <Route path="projects" element={<Projects  />} /> 
       <Route path="contact" element={<Contact  />} />
       <Route path="certifications" element={<Certifications />} />

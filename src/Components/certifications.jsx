@@ -38,7 +38,7 @@ const Certifications = () => {
           {certificationList.map((certification, index) => (
             <div key={index} className="certification bg-gray-800 p-6 rounded border-gray-600 transition-transform transform hover:scale-105">
               <h3 className="text-xl font-semibold mb-3 text-teal-400">{certification.title}</h3>
-              <p className="text-lg mb-4 text-gray-400">{certification.description}</p>
+              <p className="text- mb-4 text-gray-400">{certification.description}</p>
               <a
                 href={certification.link}
                 target="_blank"
