@@ -1,93 +1,58 @@
 import React from 'react';
+import About from './about';
 
 const AboutStatic = () => {
-  const cards = [
-    {
-      title: 'Professional Expertise',
-      icon: 'fas fa-laptop-code',
-      content: (
-        <>
-          <p className="mb-3">
-            As a Full Stack Developer, I specialize in the end-to-end development of web applications, from designing
-            intuitive user interfaces to implementing scalable backend solutions.
-          </p>
-          <p>
-            My proficiency extends to using
-            <span className="ml-2 mr-1 text-yellow-400">JavaScript</span>,
-            <span className="ml-1 mr-1 text-blue-500">Python</span>, and
-            <span className="ml-1 mr-1 text-teal-400">React</span>, along with frameworks such as
-            Express JS and Flask.
-          </p>
-          <p>
-            I am adept at creating dynamic and responsive applications, incorporating technologies like Material UI and
-            Tailwind CSS for visually appealing designs.
-          </p>
-        </>
-      ),
-    },
-    {
-      title: 'MERN Stack and Node.js',
-      icon: 'fab fa-node-js',
-      content: (
-        <>
-          <p className="mb-3">
-            Proficient in the MERN (MongoDB, Express.js, React, Node.js) stack for building full-stack web applications.
-          </p>
-          <p>
-            Additionally, experienced in server-side JavaScript programming with Node.js, enabling the development of scalable and efficient server applications.
-          </p>
-        </>
-      ),
-    },
-    {
-      title: 'Passion for Machine Learning',
-      icon: 'fas fa-brain',
-      content: (
-        <>
-          <p className="mb-3">
-            Beyond web development, I have a strong passion for exploring the realms of Machine Learning and AI. I have
-            hands-on experience in Deep Learning, Scikit-Learn, Tensorflow, and have integrated the Open AI API into
-            projects.
-          </p>
-          <p>
-            This intersection of software development and artificial intelligence allows me to contribute to
-            cutting-edge solutions in a rapidly evolving technological landscape.
-          </p>
-        </>
-      ),
-    },
-    {
-      title: 'Generative AI and Trending Technologies',
-      icon: 'fas fa-robot',
-      content: (
-        <>
-          <p className="mb-3">
-            I am enthusiastic about Generative AI and constantly explore emerging technologies. I stay updated with the
-            latest trends and advancements in the tech industry, ensuring that I can contribute to cutting-edge
-            solutions.
-          </p>
-        </>
-      ),
-    },
-  ];
-
   return (
-    <div className="about-container bg-gray-900 py-12 text-white h-full flex justify-center items-center">
-      <div className="flex flex-col items-center max-w-2xl w-full">
-        <h1 className="text-4xl font-bold mb-6 text-teal-400">About Me</h1>
-        {cards.map((card, index) => (
-          <div key={index} className="card text-lg p-6 rounded bg-gray-800 mb-4">
-            <h3 className="text-2xl font-bold mb-3 text-teal-400 flex items-center">
-              <i className={card.icon + ' mr-2'}></i>
-              {card.title}
-            </h3>
-            {card.content}
+    
+    <div className="min-h-screen flex justify-center items-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+    <div className="max-w-2xl w-full p-8 bg-gray-800 rounded-lg shadow-lg text-white">
+        <section className="mb-8">
+          <h2 className="text-4xl font-bold mb-6 text-teal-400">About Me</h2>
+
+          <p className="text-lg mb-6">
+            Passionate Full Stack Developer with expertise in JavaScript, Python, and Java. Specialized in crafting seamless applications using React, Express JS, and Flask. Adept at creating innovative solutions, I thrive in collaborative environments, bringing a commitment to excellence and a keen interest in Machine Learning and AI advancements. Committed to continuous learning and eager to contribute dynamic skills to high-impact projects.
+          </p>
+
+          <About></About>
+
+            <br />
+          <div className="flex flex-col">
+            <div className="mb-8">
+              <h3 className="text-3xl font-bold mb-4 text-teal-400">Future Goals:</h3>
+              <ul className="list-disc pl-8 text-lg">
+                <li className="mb-2">Dive into the applications of reinforcement learning in game development.</li>
+                <li className="mb-2">Apply Reinforcement Learning concepts to create innovative solutions in various gaming scenarios.</li>
+              </ul>
+            </div>
+
+            <div className="mb-8">
+              <h3 className="text-3xl font-bold mb-4 text-teal-400">Love for Building Things:</h3>
+              <p className="text-lg">
+                I have a passion for building things, especially exploring the intersection of technology and creativity to bring ideas to life.
+              </p>
+            </div>
+
+            <div className="mb-8">
+              <h3 className="text-3xl font-bold mb-4 text-teal-400">Hobbies:</h3>
+              <ul className="list-disc pl-8 text-lg">
+                <li className="mb-2">Cricket</li>
+                <li className="mb-2">Football</li>
+                <li className="mb-2">Gaming</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-3xl font-bold mb-4 text-teal-400">Interests:</h3>
+              <ul className="list-disc pl-8 text-lg">
+                <li className="mb-2">Cooking</li>
+                <li className="mb-2">Anime</li>
+              </ul>
+            </div>
           </div>
-        ))}
+        </section>
       </div>
     </div>
   );
 };
 
 export default AboutStatic;
-

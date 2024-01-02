@@ -6,10 +6,8 @@ import About from './about'; // Import your About component
 import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
-  const scrollDown = () => {
-    const aboutSection = document.getElementById('about');
-    aboutSection.scrollIntoView({ behavior: 'smooth' });
-  };
+ 
+  
 
   return (
     <div className="landing-container min-h-screen flex flex-col overflow-hidden bg-gray-900">
@@ -25,7 +23,7 @@ const LandingPage = () => {
           </p>
         </Fade>
         <Fade>
-          <Link to="/about" className="bg-teal-800 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out" onClick={scrollDown}>
+          <Link to="/about" className="bg-teal-800 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out" >
             Learn more about me
           </Link>
         </Fade>
