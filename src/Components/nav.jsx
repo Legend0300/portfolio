@@ -49,7 +49,7 @@ const Nav = () => {
                         Contact
                     </NavLink>
                     {/* Download CV Button */}
-                    <a
+                    <NavLink
                         href="https://c5y18s9mdhikovk1.public.blob.vercel-storage.com/CV%20(1).PDF"
                         download="cv (1).pdf"
                         className="font-medium nav-link text-teal-400 hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out rounded-full p-3"
@@ -57,7 +57,7 @@ const Nav = () => {
                         rel="noopener noreferrer"  // Recommended for security when using target="_blank"
                     >
                         Download CV
-                    </a>
+                    </NavLink>
 
                 </div>
                 {/* Mobile Menu Toggle Button */}
