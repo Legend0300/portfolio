@@ -51,7 +51,7 @@ const Nav = () => {
                 {/* Download CV Button */}
       <a
         href="src\CV (1).PDF"
-        download="CV.pdf"
+        download="https://c5y18s9mdhikovk1.public.blob.vercel-storage.com/CV%20(1).PDF"
         className="font-medium nav-link text-teal-400 hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out rounded-full p-3"
       >
         Download CV
@@ -115,7 +115,7 @@ const Nav = () => {
           {/* Download CV Button for Mobile */}
           <a
             href="src\CV (1).PDF"
-            download="CV.pdf"
+            download="https://c5y18s9mdhikovk1.public.blob.vercel-storage.com/CV%20(1).PDF"
             className="text-teal-400 block px-4 py-2 font-medium hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out"
           >
             Download CV
