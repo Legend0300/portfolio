@@ -50,7 +50,7 @@ const Nav = () => {
                     </NavLink>
                     {/* Download CV Button */}
                     <NavLink
-                        href="https://c5y18s9mdhikovk1.public.blob.vercel-storage.com/CV%20(1).PDF"
+                        to="https://c5y18s9mdhikovk1.public.blob.vercel-storage.com/CV%20(1).PDF"
                         download="cv (1).pdf"
                         className="font-medium nav-link text-teal-400 hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out rounded-full p-3"
                         target="_blank"  // Open link in a new tab/window
@@ -118,7 +118,7 @@ const Nav = () => {
                     {/* Download CV Button for Mobile */}
                     
                     <NavLink
-                        href="https://c5y18s9mdhikovk1.public.blob.vercel-storage.com/CV%20(1).PDF"
+                        to="https://c5y18s9mdhikovk1.public.blob.vercel-storage.com/CV%20(1).PDF"
                         download="cv (1).pdf"
                         className="font-medium nav-link text-teal-400 hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out rounded-full p-3"
                         target="_blank"  // Open link in a new tab/window
