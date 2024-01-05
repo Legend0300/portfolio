@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import Footer from './footer';
+import "./styles.css"
 
 const Nav = () => {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -14,11 +15,11 @@ const Nav = () => {
             <nav className="flex justify-between items-center">
                 <div className="hidden lg:flex space-x-4">
                     {/* Styled Logo */}
-                    <div className="flex items-center">
+                    <div className="flex items-center" id='nav-buttons'>
                         <NavLink
                             to="/"
                             end
-                            className="font-medium nav-link text-teal-400 hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out rounded-full p-3"
+                            className=" nav-link text-teal-400 hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out rounded-full p-3"
                             exact
                         >
                             Home
@@ -26,25 +27,25 @@ const Nav = () => {
                     </div>
                     <NavLink
                         to="skills"
-                        className="font-medium nav-link text-teal-400 hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out rounded-full p-3"
+                        className=" nav-link text-teal-400 hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out rounded-full p-3"
                     >
                         Skills
                     </NavLink>
                     <NavLink
                         to="projects"
-                        className="font-medium nav-link text-teal-400 hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out rounded-full p-3"
+                        className=" nav-link text-teal-400 hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out rounded-full p-3"
                     >
                         Projects
                     </NavLink>
                     <NavLink
                         to="certifications"
-                        className="font-medium nav-link text-teal-400 hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out rounded-full p-3"
+                        className=" nav-link text-teal-400 hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out rounded-full p-3"
                     >
                         Certifications
                     </NavLink>
                     <NavLink
                         to="contact"
-                        className="font-medium nav-link text-teal-400 hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out rounded-full p-3"
+                        className=" nav-link text-teal-400 hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out rounded-full p-3"
                     >
                         Contact
                     </NavLink>
@@ -52,7 +53,7 @@ const Nav = () => {
                     <NavLink
                         to="https://c5y18s9mdhikovk1.public.blob.vercel-storage.com/CV%20(1).PDF"
                         download="cv (1).pdf"
-                        className="font-medium nav-link text-teal-400 hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out rounded-full p-3"
+                        className=" nav-link text-teal-400 hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out rounded-full p-3"
                         target="_blank"  // Open link in a new tab/window
                         rel="noopener noreferrer"  // Recommended for security when using target="_blank"
                     >
@@ -82,7 +83,7 @@ const Nav = () => {
                     <NavLink
                         to="/"
                         onClick={toggleMobileMenu}
-                        className="text-teal-400 block px-4 py-2 font-medium hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out"
+                        className="text-teal-400 block px-4 py-2  hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out"
                         exact
                     >
                         Home
@@ -90,28 +91,28 @@ const Nav = () => {
                     <NavLink
                         to="skills"
                         onClick={toggleMobileMenu}
-                        className="text-teal-400 block px-4 py-2 font-medium hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out"
+                        className="text-teal-400 block px-4 py-2  hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out"
                     >
                         Skills
                     </NavLink>
                     <NavLink
                         to="projects"
                         onClick={toggleMobileMenu}
-                        className="text-teal-400 block px-4 py-2 font-medium hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out"
+                        className="text-teal-400 block px-4 py-2  hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out"
                     >
                         Projects
                     </NavLink>
                     <NavLink
                         to="certifications"
                         onClick={toggleMobileMenu}
-                        className="text-teal-400 block px-4 py-2 font-medium hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out"
+                        className="text-teal-400 block px-4 py-2  hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out"
                     >
                         Certifications
                     </NavLink>
                     <NavLink
                         to="contact"
                         onClick={toggleMobileMenu}
-                        className="text-teal-400 block px-4 py-2 font-medium hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out"
+                        className="text-teal-400 block px-4 py-2  hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out"
                     >
                         Contact
                     </NavLink>
@@ -119,8 +120,8 @@ const Nav = () => {
                     
                     <NavLink
                         to="https://c5y18s9mdhikovk1.public.blob.vercel-storage.com/CV%20(1).PDF"
-                        download="cv (1).pdf"
-                        className="text-teal-400 block px-4 py-2 font-medium hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out"
+                        download="cv.pdf"
+                        className="text-teal-400 block px-4 py-2  hover:bg-teal-300 hover:text-gray-900 transition duration-300 ease-in-out"
                         target="_blank"  // Open link in a new tab/window
                         rel="noopener noreferrer"  // Recommended for security when using target="_blank"
                     >

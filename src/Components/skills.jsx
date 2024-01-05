@@ -5,7 +5,7 @@ const Skills = () => {
     <div className="container mx-auto my-8 p-8 bg-gray-900 text-white rounded shadow-lg font-montserrat">
       <h2 className="text-4xl font-bold mb-6 text-center text-teal-400">Skills</h2>
 
-      <div className="skill-category mb-8 bg-gray-800 p-6 rounded">
+      <div className="transition-transform transform hover:scale-105 skill-category mb-8 bg-gray-800 p-6 rounded">
         <h3 className="text-2xl font-semibold mb-4 text-teal-300">Languages</h3>
         <p className="text-gray-400 text-lg">
           I am proficient in several programming languages, including:
@@ -13,7 +13,7 @@ const Skills = () => {
         </p>
       </div>
 
-      <div className="skill-category mb-8 bg-gray-800 p-6 rounded">
+      <div className="transition-transform transform hover:scale-105 skill-category mb-8 bg-gray-800 p-6 rounded">
         <h3 className="text-2xl font-semibold mb-4 text-teal-300">Frontend Technologies</h3>
         <p className="text-gray-400 text-lg">
           My expertise in frontend development includes:
@@ -22,7 +22,7 @@ const Skills = () => {
         </p>
       </div>
 
-      <div className="skill-category mb-8 bg-gray-800 p-6 rounded">
+      <div className="transition-transform transform hover:scale-105 skill-category mb-8 bg-gray-800 p-6 rounded">
         <h3 className="text-2xl font-semibold mb-4 text-teal-300">Backend Technologies</h3>
         <p className="text-gray-400 text-lg">
           On the backend, I excel in:
@@ -32,7 +32,7 @@ const Skills = () => {
         </p>
       </div>
 
-      <div className="skill-category mb-8 bg-gray-800 p-6 rounded">
+      <div className="transition-transform transform hover:scale-105 skill-category mb-8 bg-gray-800 p-6 rounded">
         <h3 className="text-2xl font-semibold mb-4 text-teal-300">Machine Learning</h3>
         <p className="text-gray-400 text-lg">
           Beyond web development, I have a strong passion for exploring the realms of Machine Learning and AI. I have
@@ -42,7 +42,7 @@ const Skills = () => {
         </p>
       </div>
 
-      <div className="skill-category mb-8 bg-gray-800 p-6 rounded">
+      <div className="transition-transform transform hover:scale-105 skill-category mb-8 bg-gray-800 p-6 rounded">
         <h3 className="text-2xl font-semibold mb-4 text-teal-300">Database Management</h3>
         <p className="text-gray-400 text-lg">
           I have a strong command of various database systems, including:

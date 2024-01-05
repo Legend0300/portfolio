@@ -79,12 +79,12 @@ const AboutStatic = () => {
       <div className="flex flex-col items-center max-w-2xl w-full">
         <h1 className="text-4xl font-bold mb-6 text-teal-400">About Me</h1>
         {cards.map((card, index) => (
-          <div key={index} className="card text-lg p-6 rounded bg-gray-800 mb-4">
+          <div key={index} className="transition-transform transform hover:scale-105 card text-lg p-6 rounded bg-gray-800 mb-4">
             <h3 className="text-2xl font-bold mb-3 text-teal-400 flex items-center">
               <FontAwesomeIcon icon={card.icon} className="mr-2" />
               {card.title}
             </h3>
-            {card.content}
+            <p>{card.content}</p>
           </div>
         ))}
       </div>

@@ -132,7 +132,8 @@ const About = () => {
                 <FontAwesomeIcon icon={faLaptopCode} className="mr-2" />
                 {cards[currentCard].title}
               </h3>
-              {cards[currentCard].content}
+              <p style={{ paddingTop: "10px" }}>{cards[currentCard].content}</p>
+              
             </div>
             {windowWidth >= 768 && (
               <button

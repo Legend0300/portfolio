@@ -10,20 +10,20 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gray-900 text-white">
-      <div className="container mx-auto my-8 p-8 bg-gray-800 text-white rounded shadow-lg font-montserrat">
-        <h2 className="text-4xl font-bold mb-6 text-center text-teal-400">Let's Connect</h2>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
+  <div className="container mx-auto my-8 p-8 bg-gray-800 text-white rounded shadow-lg font-montserrat lg:max-w-xl xl:max-w-2xl">
+    <h2 className="text-4xl font-bold mb-6 text-center text-teal-400">Let's Connect</h2>
 
-        <p className="mb-4 text-lg text-center ">
-          I'm always open to new opportunities and collaborations. Feel free to reach out to me through any of the following channels:
-        </p>
+      <p className="mb-4 text-lg text-center">
+        I'm always open to new opportunities and collaborations. Feel free to reach out to me through any of the following channels:
+      </p>
 
         <ul className="mb-8 text-center">
           <li className="mb-2">
             <a
               style={{ textDecoration: 'none' }}
               href="mailto:ahmed.mansur.bhatti@gmail.com"
-              className="font-medium text-teal-300 flex items-center justify-center underline rounded-full p-3 bg-gray-700 hover:bg-gray-600"
+              className="max-w-md mx-auto text-teal-300 flex items-center justify-center underline rounded-full p-3 bg-gray-700 hover:bg-gray-600"
             >
               <FontAwesomeIcon icon={faEnvelope} className="font-medium text-lg mr-2" />
               Email
@@ -35,7 +35,7 @@ const Contact = () => {
               href="https://www.linkedin.com/in/muhammad-ahmad-b55539250/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium text-teal-300 flex items-center justify-center underline rounded-full p-3 bg-gray-700 hover:bg-gray-600"
+              className="max-w-md mx-auto text-teal-300 flex items-center justify-center underline rounded-full p-3 bg-gray-700 hover:bg-gray-600"
             >
               <FontAwesomeIcon icon={faLinkedin} className="font-medium text-lg mr-2" />
               LinkedIn
@@ -45,7 +45,7 @@ const Contact = () => {
             <a
               style={{ textDecoration: 'none' }}
               href="tel:+923124066677"
-              className="font-medium text-teal-300 flex items-center justify-center underline rounded-full p-3 bg-gray-700 hover:bg-gray-600"
+              className="max-w-md mx-auto text-teal-300 flex items-center justify-center underline rounded-full p-3 bg-gray-700 hover:bg-gray-600"
             >
               <FontAwesomeIcon icon={faPhone} className="text-lg mr-2" />
               Phone
@@ -57,7 +57,7 @@ const Contact = () => {
               href="https://github.com/Legend0300"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium text-teal-300 flex items-center justify-center underline rounded-full p-3 bg-gray-700 hover:bg-gray-600"
+              className="max-w-md mx-auto text-teal-300 flex items-center justify-center underline rounded-full p-3 bg-gray-700 hover:bg-gray-600 "
             >
               <FontAwesomeIcon icon={faGithub} className="text-lg mr-2" />
               GitHub
@@ -79,7 +79,7 @@ const Contact = () => {
             id="email"
             name="email"
             placeholder="Your email"
-            className="w-full p-2 mb-4 rounded bg-gray-700 text-gray-300 focus:outline-none focus:ring focus:border-teal-500"
+            className="w-full p-2 mb-4 rounded bg-gray-700 text-gray-300 focus:outline-none focus:ring focus:border-teal-500 "
             required
           />
 
