@@ -1,4 +1,4 @@
-https://c5y18s9mdhikovk1.public.blob.vercel-storage.com/CV%20(1).PDFimport React, { useState } from 'react';
+import React, { useState } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import Footer from './footer';
 
