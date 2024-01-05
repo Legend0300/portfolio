@@ -5,7 +5,6 @@ This is a portfolio website showcasing skills, projects, certifications, and con
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
 - [Routes](#routes)
 - [Navigation](#navigation)
 - [Download CV](#download-cv)
@@ -20,9 +19,6 @@ npm install
 npm start
 ```
 
-## Usage
-Explain how to use your application and any important information users need to know.
-
 ## Routes
 List and briefly explain the available routes in your application.
 
@@ -33,7 +29,6 @@ List and briefly explain the available routes in your application.
 - `/contact` - Contact
 
 ## Navigation
-Describe the navigation links and their functionality in the application.
 
 - **Home:** Link to the landing page.
 - **Skills:** Link to the Skills page.
@@ -47,7 +42,7 @@ Provide a link to download the CV and explain its purpose.
 [Download CV](https://c5y18s9mdhikovk1.public.blob.vercel-storage.com/CV%20(1).PDF)
 
 ## Mobile Menu
-Explain the functionality of the mobile menu and how users can navigate through it.
+Website is made to be mobile friendly and responsive on all screens! 
 
 ## License
-Specify the license under which your project is distributed.
+This portfolio website is free to use and customize.
